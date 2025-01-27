@@ -1,0 +1,37 @@
+body {
+    display: flex;  
+    justify-content:center; /* Centra horizontalmente */  
+    align-items: center;     /* Centra verticalmente */  
+    height: 100vh;    
+}
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+}
+.display{
+    border-style:solid ;
+    text-align: right;
+    border-width: 10px black;
+    border-radius: 5px;
+    width: 16.5rem;
+    height: 4rem;
+    margin-bottom: 2px;
+    font-size: 3em;
+}
+button{
+    margin-bottom: 2px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+    background-color: black;
+    color: #eee;
+    font-size: 2em;
+}
+
+.fila {
+    display: block;
+    
+}
